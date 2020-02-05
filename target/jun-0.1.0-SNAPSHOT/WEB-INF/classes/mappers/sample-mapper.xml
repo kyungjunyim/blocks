@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" " http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jun.blocks.sample.dao.SampleDao">
+	<resultMap id="sample" type="Sample">
+		<id property="sequence" column="seq"/>
+		<result property="name" column="name"/>
+		<result property="age" column="age"/>
+	</resultMap>
+
+	<insert id="add" parameterType="Sample">
+		INSERT INTO 
+			sample (seq, name, age)
+		VALUES
+			(#{sequence}, #{name}, #{age})
+	</insert>
+	
+	<select id="get" parameterType="int" resultMap="sample">
+		SELECT
+			*
+		FROM
+			sample
+		WHERE
+			seq = #{sequence}
+	</select>
+	
+	<delete id="delete" parameterType="int">
+		DELETE
+		FROM
+			sample
+		WHERE
+			seq = #{sequence}
+	</delete>
+	
+	<delete id="deleteAll">
+		DELETE FROM sample
+	</delete>
+</mapper> 

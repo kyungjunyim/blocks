@@ -1,0 +1,120 @@
+@charset "EUC-KR";
+
+.logo_nav {
+	height: 40px;
+}
+
+.header {
+	background-color: var(--main-color);
+	padding: 10px 0px 10px 20px;
+	height: 35px;
+	display: block;
+	position: fixed;
+	left: 0;
+	width: 100%;
+	z-index: 240;
+	height: 60px;
+}
+
+.main {
+	display: block;
+	height: 100%;
+	padding: 60px 0;
+}
+
+.main_container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: 60px 0;
+	padding: 0 !important;
+}
+
+.main_nav {
+    width: 230px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.main_contents {
+    overflow: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.btn_search {
+	border: none;
+	background: none;	
+}
+
+.img_search {
+	height: 25px;
+}
+
+.input_search {
+	background: none;
+	border: none;
+	color: white;
+	width: 255px;
+	font-family: bmHannaAir;
+	font-size: 20px;
+}
+
+.input_search::placeholder {
+	color: white;
+	font-family: bmHannaAir;
+	font-size: 20px;
+}
+
+.btn_upload {
+	padding: 0;
+	width: 200px;
+	height: 50px;
+	margin: 15px auto;
+	border: 1px solid var(--main-color);
+	background-color: white;
+	color: var(--main-color);
+	font-family: bmHannaPro;
+	font-size: 27px;
+	border-radius: 5px;
+}
+
+.btn_upload:hover {
+	background-color: var(--main-color);
+	color: white;
+}
+
+.btn_nav {
+	display: block;
+	border: none;
+	background: none;
+	font-family: bmJua;
+	font-size: 20px;
+	margin: 0;
+	text-align: left;
+	padding: 15px 20px;
+	width: 230px;
+	border-radius: 5px;
+}
+
+.btn_nav:hover {
+	background-color: rgba(243, 112, 34, 0.3);
+}
+
+.img_btn_nav {
+	margin-right: 20px;
+	width: 35px;
+}
+
+.btn_grp {
+	border-top: 4px double rgba(107, 107, 107, 0.3);
+}
+
+.label_cap {
+	width: 190px;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 0;
+}

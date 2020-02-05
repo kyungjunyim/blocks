@@ -1,0 +1,39 @@
+@charset "EUC-KR";
+
+@FONT-FACE {
+	font-family: 'bmDohyeon';
+	src: url('/resources/fonts/BMDOHYEON_ttf.ttf');
+}
+@FONT-FACE {
+	font-family: 'bmEuljiro';
+	src: url('/resources/fonts/BMEULJIROTTF.ttf');
+}
+@FONT-FACE {
+	font-family: 'bmHanna11Yrs';
+	src: url('/resources/fonts/BMHANNA_11yrs_ttf.ttf');
+}
+@FONT-FACE {
+	font-family: 'bmHannaAir';
+	src: url('/resources/fonts/BMHANNAAir_ttf.ttf');
+}
+@FONT-FACE {
+	font-family: 'bmHannaPro';
+	src: url('/resources/fonts/BMHANNAPro.ttf');
+}
+@FONT-FACE {
+	font-family: 'bmJua';
+	src: url('/resources/fonts/BMJUA_ttf.ttf');
+}
+@FONT-FACE {
+	font-family: 'bmKiRangHaeRang';
+	src: url('/resources/fonts/BMKIRANGHAERANG-TTF.ttf');
+}
+@FONT-FACE {
+	font-family: 'bmYeonsung';
+	src: url('/resources/fonts/BMYEONSUNG_ttf.ttf');
+}
+
+:root {
+	--main-color: #F37022;
+	--text-color: #11264F;
+}

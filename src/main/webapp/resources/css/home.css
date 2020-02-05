@@ -1,0 +1,14 @@
+@charset "EUC-KR";
+
+.logo {
+	width: 540px;
+	margin: 250px auto;
+}
+
+.btn_login {
+	font-family: bmHannaAir;	
+}
+
+body {
+	background-image: url('/resources/img/bg_3.png');
+}
