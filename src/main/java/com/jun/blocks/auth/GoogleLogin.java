@@ -25,6 +25,7 @@ public class GoogleLogin extends HttpServlet {
 	private GoogleAuthorizationCodeFlow flow;
 
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
+		// google login test
 		System.out.println("google login");
 
 		String state = new BigInteger(130, new SecureRandom()).toString(32); // prevent request forgery
