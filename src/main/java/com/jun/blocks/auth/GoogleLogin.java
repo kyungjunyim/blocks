@@ -21,10 +21,13 @@ public class GoogleLogin extends HttpServlet {
 	private static final Collection<String> SCOPES = Arrays.asList("email", "profile");
 	private static final JsonFactory JSON_FACTORY = new JacksonFactory();
 	private static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
+	private static final String CLIENT_ID = "528170858216-skss4v65ehim2r8e9hmkjl60hq5j25u8.apps.googleusercontent.com";
+	private static final String CLIENT_SECRET = "goZqLjq8oPh97_A54hSU0lYr";
+	private static final String REDIRECT_URI = "localhost:8080";
 
 	private GoogleAuthorizationCodeFlow flow;
 
-	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
+	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
 		// google login test
 		System.out.println("google login");
 
@@ -37,13 +40,10 @@ public class GoogleLogin extends HttpServlet {
 			req.getSession().setAttribute("loginDestination", "/test/google");
 		}
 
-		String clientId = getServletContext().getInitParameter("blocks.clientId");
-		String clientSecret = getServletContext().getInitParameter("blocks.clientSecret");
-		String redirectUri = getServletContext().getInitParameter("callback.host");
+		flow = new GoogleAuthorizationCodeFlow.Builder(HTTP_TRANSPORT, JSON_FACTORY, CLIENT_ID, CLIENT_SECRET, SCOPES).build();
 
-		// flow = new GoogleAuthorizationCodeFlow.Builder(HTTP_TRANSPORT, JSON_FACTORY, clientId, clientSecret, SCOPES).build();
+		String url = flow.newAuthorizationUrl().setRedirectUri(REDIRECT_URI).setState(state).build();
 
-		// String url = flow.newAuthorizationUrl().setRedirectUri(redirectUri).setState(state).build();
-
+		System.out.println(url);
 	}
 }
