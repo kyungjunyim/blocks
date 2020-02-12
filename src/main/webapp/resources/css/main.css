@@ -33,20 +33,20 @@
 }
 
 .main_nav {
-    width: 230px;
-    overflow: auto;
-    overflow-x: hidden;
+	width: 230px;
+	overflow: auto;
+	overflow-x: hidden;
 }
 
 .main_contents {
-    overflow: auto;
-    overflow-x: hidden;
-    height: 100%;
+	overflow: auto;
+	overflow-x: hidden;
+	height: 100%;
 }
 
 .btn_search {
 	border: none;
-	background: none;	
+	background: none;
 }
 
 .img_search {
@@ -112,9 +112,42 @@
 	border-top: 4px double rgba(107, 107, 107, 0.3);
 }
 
-.label_cap {
-	width: 190px;
-	text-align: center;
-	font-size: 12px;
-	margin-bottom: 0;
+.cap {
+	font-size: 15px;
+}
+
+.btn_main {
+	background: none;
+	border: none;
+	font-size: 30px;
+	padding: 10px 20px;
+	font-family: bmHannaAir; 
+	font-weight: bold;
+}
+
+.btn_main:hover {
+	color: var(--main-color);
+}
+
+.temp_thumb {
+	width: 180px;
+	height: 180px;
+}
+
+.btn_thumb {
+	padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+}
+
+.btn_thumb:hover {
+	opacity: 0.7;
+}
+
+.thumb_cap {
+	margin-top: 5px;
+	font-family: bmHannaAir;
+	font-size: 20px;
+	font-weight: bold;
 }
