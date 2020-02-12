@@ -1,5 +1,10 @@
 @charset "EUC-KR";
 
+:root {
+	--main-color: #F37022;
+	--text-color: #11264F;
+}
+
 @FONT-FACE {
 	font-family: 'bmDohyeon';
 	src: url('/resources/fonts/BMDOHYEON_ttf.ttf');
@@ -31,9 +36,4 @@
 @FONT-FACE {
 	font-family: 'bmYeonsung';
 	src: url('/resources/fonts/BMYEONSUNG_ttf.ttf');
-}
-
-:root {
-	--main-color: #F37022;
-	--text-color: #11264F;
 }
