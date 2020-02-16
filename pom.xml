@@ -41,7 +41,7 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
-		<!--  Spring framework -->
+		<!-- Spring framework -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
@@ -160,6 +160,11 @@
 			<artifactId>google-api-client</artifactId>
 			<version>1.30.4</version>
 		</dependency>
+		<dependency>
+			<groupId>com.google.oauth-client</groupId>
+			<artifactId>google-oauth-client-jetty</artifactId>
+			<version>1.22.0</version>
+		</dependency>
 		<!-- Dropbox SDK V2 -->
 		<dependency>
 			<groupId>com.dropbox.core</groupId>
@@ -182,6 +187,19 @@
 			<groupId>com.google.appengine</groupId>
 			<artifactId>appengine-api-1.0-sdk</artifactId>
 			<version>1.9.78</version>
+		</dependency>
+		<!-- Google Drive API -->
+		<dependency>
+			<groupId>com.google.apis</groupId>
+			<artifactId>google-api-services-drive</artifactId>
+			<version>v3-rev191-1.18.0-rc</version>
+		</dependency>
+		<!-- Lombok -->
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <version>1.18.8</version>
+		    <scope>provided</scope>
 		</dependency>
 		
 	</dependencies>

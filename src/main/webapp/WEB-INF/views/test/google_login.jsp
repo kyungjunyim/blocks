@@ -12,5 +12,8 @@
 <link rel="icon" type="image/png" href="/resources/favicon-32x32.png">
 </head>
 <body>
+ 	<c:forEach var="file" items="${files }">
+ 		<c:out value="${file.name }" /><br />
+ 	</c:forEach>
 </body>
 </html>
