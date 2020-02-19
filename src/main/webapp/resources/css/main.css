@@ -129,16 +129,18 @@
 	color: var(--main-color);
 }
 
-.temp_thumb {
-	width: 180px;
-	height: 180px;
+.img_thumb {
+	width: 110px;
+	height: 110px;
 }
 
 .btn_thumb {
 	padding: 0;
     margin: 0;
-    background: none;
+    background: #f0f0f0;
     border: none;
+    width: 180px;
+    height: 180px;
 }
 
 .btn_thumb:hover {
@@ -150,4 +152,34 @@
 	font-family: bmHannaAir;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+.drive_thumb {
+	width: 25px;
+    position: absolute;
+    right: 24px;
+    top: 12px;
+}
+
+.logo_list {
+	width: 30px;
+}
+
+.pages_table {
+	margin-top: 20px;
+	margin-left: 70px;
+	border-top: none;
+	font-family: bmHannaAir;
+}
+
+.pages_table thead {
+	font-size: 20px;
+}
+
+.pages_table tbody {
+	font-size: 18px;
+}
+
+.pages_table td:hover {
+	cursor: pointer;
 }

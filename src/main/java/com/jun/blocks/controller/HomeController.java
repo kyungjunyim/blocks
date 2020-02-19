@@ -24,4 +24,10 @@ public class HomeController {
 		
 		return "home/main";
 	}
+	@RequestMapping(value="/blocks/pages", method=RequestMethod.GET)
+	public String pages() {
+		logger.info("Pages");
+		
+		return "home/pages";
+	}
 }

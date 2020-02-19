@@ -25,20 +25,23 @@
 					<div class="row" style="margin-left: 50px; margin-top: 15px;">
 						<div class="col">
 							<button type="button" class="btn_thumb">
-								<img src="/resources/img/word_thumb.jpg" class="temp_thumb">
+								<img src="/resources/img/g_logo.png" class="drive_thumb">
+								<img src="/resources/img/word_logo.png" class="img_thumb">
 								<div class="thumb_cap">word_1.docx</div>
 							</button>
 						</div>
 						<div class="col">
 							<button type="button" class="btn_thumb">
-								<img src="/resources/img/word_thumb.jpg" class="temp_thumb">
-								<div class="thumb_cap">word_2.docx</div>
+							<img src="/resources/img/o_logo.png" class="drive_thumb">
+								<img src="/resources/img/ppt_logo.png" class="img_thumb">
+								<div class="thumb_cap">ppt_1.pptx</div>
 							</button>
 						</div>
 						<div class="col">
 							<button type="button" class="btn_thumb">
-								<img src="/resources/img/word_thumb.jpg" class="temp_thumb">
-								<div class="thumb_cap">word_3.docx</div>
+								<img src="/resources/img/d_logo.png" class="drive_thumb">
+								<img src="/resources/img/excel_logo.png" class="img_thumb">
+								<div class="thumb_cap">excel_1.xlsx</div>
 							</button>
 						</div>
 					</div>
@@ -48,19 +51,22 @@
 					<div class="row" style="margin-left: 50px; margin-top: 15px;">
 						<div class="col">
 							<button type="button" class="btn_thumb">
-								<img src="/resources/img/word_thumb.jpg" class="temp_thumb">
+								<img src="/resources/img/d_logo.png" class="drive_thumb">
+								<img src="/resources/img/word_logo.png" class="img_thumb">
 								<div class="thumb_cap">word_1.docx</div>
 							</button>
 						</div>
 						<div class="col">
 							<button type="button" class="btn_thumb">
-								<img src="/resources/img/word_thumb.jpg" class="temp_thumb">
+								<img src="/resources/img/d_logo.png" class="drive_thumb">
+								<img src="/resources/img/word_logo.png" class="img_thumb">
 								<div class="thumb_cap">word_2.docx</div>
 							</button>
 						</div>
 						<div class="col">
 							<button type="button" class="btn_thumb">
-								<img src="/resources/img/word_thumb.jpg" class="temp_thumb">
+								<img src="/resources/img/d_logo.png" class="drive_thumb">
+								<img src="/resources/img/word_logo.png" class="img_thumb">
 								<div class="thumb_cap">word_3.docx</div>
 							</button>
 						</div>
